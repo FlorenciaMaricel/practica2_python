@@ -9,9 +9,10 @@ Instalación y ejecución:
 
 - Clonar el repositorio:
   git clone https://github.com/FlorenciaMaricel/practica2_python.git
+
   cd practica2_python
 
-- Crear entorno virtual (opcional):
+- Crear entorno virtual:
   python -m venv venv
 
 - Activar entorno virtual:

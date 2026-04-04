@@ -15,4 +15,4 @@ def promedio_palabras_por_linea(texto):
 
 def lineas_encima_promedio(texto):
     promedio = promedio_palabras_por_linea(texto)
-    return [linea for linea in texto.split("\n") if len(linea.split()) > promedio]
+    return [linea for linea in texto.split(".\n") if len(linea.split()) > promedio]
